@@ -16,6 +16,7 @@
 		3612720E2874205C0072B43C /* SwiftUI2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612720D2874205C0072B43C /* SwiftUI2022UITestsLaunchTests.swift */; };
 		3612721B287421FD0072B43C /* SwiftUI20220705.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612721A287421FD0072B43C /* SwiftUI20220705.swift */; };
 		3612721D2874223A0072B43C /* SwiftUI20220705-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612721C2874223A0072B43C /* SwiftUI20220705-2.swift */; };
+		363D97D3291A27E900E2AF3E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D97D2291A27E800E2AF3E /* SettingView.swift */; };
 		369D3381287517D10063BDF3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 369D3380287517D10063BDF3 /* SDWebImageSwiftUI */; };
 		369D3384287518440063BDF3 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 369D3383287518440063BDF3 /* SwiftyJSON */; };
 		369D338828751EF60063BDF3 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 369D338728751EF60063BDF3 /* ObjectMapper */; };
@@ -74,6 +75,7 @@
 		3612721A287421FD0072B43C /* SwiftUI20220705.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI20220705.swift; sourceTree = "<group>"; };
 		3612721C2874223A0072B43C /* SwiftUI20220705-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI20220705-2.swift"; sourceTree = "<group>"; };
 		3612721E28743EC40072B43C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		363D97D2291A27E800E2AF3E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		369D338C287528BB0063BDF3 /* SwiftUI20220706.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI20220706.swift; sourceTree = "<group>"; };
 		369D339428752B2A0063BDF3 /* umbagog@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "umbagog@2x.jpg"; sourceTree = "<group>"; };
 		369D339528752B2A0063BDF3 /* twinlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twinlake@2x.jpg"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				36B1E0E3287FB43C00E025DF /* SwiftUI20220714.swift */,
 				369D339028752B2A0063BDF3 /* Resources */,
 				36B06EC628DC4CC100D63A63 /* NotificationView.swift */,
+				363D97D2291A27E800E2AF3E /* SettingView.swift */,
 			);
 			path = SwiftUI2022;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				36B1E0E4287FB43C00E025DF /* SwiftUI20220714.swift in Sources */,
 				369D33AF28766CBD0063BDF3 /* SwiftUI20220707.swift in Sources */,
 				3612721D2874223A0072B43C /* SwiftUI20220705-2.swift in Sources */,
+				363D97D3291A27E900E2AF3E /* SettingView.swift in Sources */,
 				361271F1287420580072B43C /* SwiftUI2022App.swift in Sources */,
 				369D33B1287677120063BDF3 /* TabBar.swift in Sources */,
 			);
@@ -552,7 +556,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUI2022/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "次应用不可用";
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIDemo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,7 +588,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUI2022/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "次应用不可用";
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIDemo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

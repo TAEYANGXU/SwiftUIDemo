@@ -41,17 +41,17 @@ struct DemoView: View {
             MyLink(linkName: "轮播图", linkView: AnyView(ContentView1())),
             MyLink(linkName: "绘制", linkView: AnyView(SwiftUI20220707())),
             MyLink(linkName: "布局", linkView: AnyView(SwiftUI20220708().environmentObject(LandmarkViewModel()))),
-            MyLink(linkName: "通知", linkView: AnyView(NotificationView())),
+            MyLink(linkName: "设置", linkView: AnyView(SettingView())),
         ]
     }
     
     var body: some View {
         List{
-            ForEach(linkList) { link in
+            ForEach(linkList.indices,id: \.self) { index in
                 NavigationLink() {
-                    link.linkView.navigationTitle(link.linkName).navigationBarTitleDisplayMode(.inline)
+                    linkList[index].linkView.navigationTitle( index == 4 ?  "" : linkList[index].linkName).navigationBarTitleDisplayMode(.inline)
                 } label: {
-                    Text(link.linkName).font(.title3)
+                    Text(linkList[index].linkName).font(.title3)
                 }
             }
         }.navigationTitle("Demo").navigationBarTitleDisplayMode(.automatic).onAppear{
